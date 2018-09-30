@@ -1,0 +1,23 @@
+{
+  "name": "TrecentoContracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Trecento",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "mocha": "^5.0.1",
+    "solidity-coverage": "^0.4.15",
+    "truffle": "^4.1.5",
+    "truffle-privatekey-provider": "^0.0.6",
+    "web3-utils": "^1.0.0-beta.30"
+  },
+  "engines": {
+    "node": ">=7.6"
+  },
+  "scripts": {
+    "build": "truffle compile",
+    "test": "truffle test",
+    "test-coverage": "solidity-coverage"
+  }
+}
